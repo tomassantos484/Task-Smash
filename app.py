@@ -5,6 +5,7 @@ from flask import Flask, render_template, redirect, request
 from flask_scss import Scss
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+import os
 
 # My App - CRUD Application (Create, Read, Update, Delete)
 app = Flask(__name__)
@@ -83,4 +84,5 @@ def edit(id: int):
 
 # Run the App
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
