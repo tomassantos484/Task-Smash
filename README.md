@@ -1,5 +1,5 @@
 # Task-Smash!
-Task Smash! is a simple To Do List App written in Python, Flask, HTML/CSS, SASS, and using SQLAlchemy as the database. 
+Task Smash! is a simple To Do List App written in Python, Flask, HTML/CSS, SASS, and using SQLAlchemy as the database. Hosted on Railway and accessible on a domain coming soon...
 
 ![image](https://github.com/tomassantos484/Task-Smasher/assets/102435876/fe649e67-4f1a-4bb5-8924-f13f0c3a2f2d)
 
